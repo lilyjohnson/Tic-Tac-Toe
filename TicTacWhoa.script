@@ -1,0 +1,278 @@
+Script started on Mon 18 Jan 2021 07:59:20 PM PST
+]0;lilyaj@zuma:~/hw1[lilyaj@zuma ~/hw1]$ !gcc
+gcc TicTacWhoa.c -ansi -std=c99 -Wall -o tictacwhoa
+]0;lilyaj@zuma:~/hw1[lilyaj@zuma ~/hw1]$ ./tictacwhoa
+Welcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: 1
+Human v. Human game started
+
+C [0;30m [0m|[0;37m [0m|[0;37m [0m
+  -----
+B [0;30m [0m|[0;37m [0m|[0;37m [0m
+  -----
+A [0;30m [0m|[0;37m [0m|[0;37m [0m
+  1 2 3
+Player X, please choose your move: C1
+Player X chose C1
+C [0;37mX[0m|[0;37m [0m|[0;37m [0m
+  -----
+B [0;30m [0m|[0;37m [0m|[0;37m [0m
+  -----
+A [0;30m [0m|[0;37m [0m|[0;37m [0m
+  1 2 3
+Player O, please choose your move: B1
+Player O chose B1
+C [0;37mX[0m|[0;37m [0m|[0;37m [0m
+  -----
+B [0;37mO[0m|[0;37m [0m|[0;37m [0m
+  -----
+A [0;30m [0m|[0;37m [0m|[0;37m [0m
+  1 2 3
+Player X, please choose your move: B2
+Player X chose B2
+C [0;37mX[0m|[0;37m [0m|[0;37m [0m
+  -----
+B [0;37mO[0m|[0;37mX[0m|[0;37m [0m
+  -----
+A [0;30m [0m|[0;37m [0m|[0;37m [0m
+  1 2 3
+Player O, please choose your move: A1
+Player O chose A1
+C [0;37mX[0m|[0;37m [0m|[0;37m [0m
+  -----
+B [0;37mO[0m|[0;37mX[0m|[0;37m [0m
+  -----
+A [0;37mO[0m|[0;37m [0m|[0;37m [0m
+  1 2 3
+Player X, please choose your move: A3
+Player X chose A3
+C [0;37mX[0m|[0;37m [0m|[0;37m [0m
+  -----
+B [0;37mO[0m|[0;37mX[0m|[0;37m [0m
+  -----
+A [0;37mO[0m|[0;37m [0m|[0;37mX[0m
+  1 2 3
+Player X won!
+Welcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: 3
+
+Game Settings
+1. Edit Player 1 color
+2. Edit Player 2 color
+3. Edit Player 1 character
+4. Edit Player 2 character
+5. Exit
+Choose Option: 1
+Edit Player 1 color
+Select a color [0;31m1.red [0;32m2.green [0;33m3.yellow [0;34m4.blue
+[0mEnter a number:1
+Welcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: 3
+
+Game Settings
+1. Edit Player 1 color
+2. Edit Player 2 color
+3. Edit Player 1 character
+4. Edit Player 2 character
+5. Exit
+Choose Option: 2
+Edit Player 2 color
+Select a color [0;31m1.red [0;32m2.green [0;33m3.yellow [0;34m4.blue
+[0mEnter a number:4
+Welcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: 3
+
+Game Settings
+1. Edit Player 1 color
+2. Edit Player 2 color
+3. Edit Player 1 character
+4. Edit Player 2 character
+5. Exit
+Choose Option: 3
+Edit Player 1 character
+Enter new character: A
+Player 1: A
+Welcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: 3
+
+Game Settings
+1. Edit Player 1 color
+2. Edit Player 2 color
+3. Edit Player 1 character
+4. Edit Player 2 character
+5. Exit
+Choose Option: 4
+Edit Player 2 character
+Enter new character: B
+Player 2: B
+Welcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: 2
+Human v. AI game started
+Please choose Player 1 or Player 2
+Enter a number: 3 2
+
+C [0;30m [0m|[0;37m [0m|[0;37m [0m
+  -----
+B [0;30m [0m|[0;37m [0m|[0;37m [0m
+  -----
+A [0;30m [0m|[0;37m [0m|[0;37m [0m
+  1 2 3
+
+C [0;31mA[0m|[0;37m [0m|[0;37m [0m
+  -----
+B [0;30m [0m|[0;37m [0m|[0;37m [0m
+  -----
+A [0;30m [0m|[0;37m [0m|[0;37m [0m
+  1 2 3
+Player B, please choose your move: B1
+Player B chose B1
+C [0;31mA[0m|[0;37m [0m|[0;37m [0m
+  -----
+B [0;34mB[0m|[0;37m [0m|[0;37m [0m
+  -----
+A [0;30m [0m|[0;37m [0m|[0;37m [0m
+  1 2 3
+
+C [0;31mA[0m|[0;31mA[0m|[0;37m [0m
+  -----
+B [0;34mB[0m|[0;37m [0m|[0;37m [0m
+  -----
+A [0;30m [0m|[0;37m [0m|[0;37m [0m
+  1 2 3
+Player B, please choose your move: B2
+Player B chose B2
+C [0;31mA[0m|[0;31mA[0m|[0;37m [0m
+  -----
+B [0;34mB[0m|[0;34mB[0m|[0;37m [0m
+  -----
+A [0;30m [0m|[0;37m [0m|[0;37m [0m
+  1 2 3
+
+C [0;31mA[0m|[0;31mA[0m|[0;31mA[0m
+  -----
+B [0;34mB[0m|[0;34mB[0m|[0;37m [0m
+  -----
+A [0;30m [0m|[0;37m [0m|[0;37m [0m
+  1 2 3
+Player A won!
+Welcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: 1
+Human v. Human game started
+
+C [0;30m [0m|[0;37m [0m|[0;37m [0m
+  -----
+B [0;30m [0m|[0;37m [0m|[0;37m [0m
+  -----
+A [0;30m [0m|[0;37m [0m|[0;37m [0m
+  1 2 3
+Player A, please choose your move: C1
+Player A chose C1
+C [0;31mA[0m|[0;37m [0m|[0;37m [0m
+  -----
+B [0;30m [0m|[0;37m [0m|[0;37m [0m
+  -----
+A [0;30m [0m|[0;37m [0m|[0;37m [0m
+  1 2 3
+Player B, please choose your move: B1
+Player B chose B1
+C [0;31mA[0m|[0;37m [0m|[0;37m [0m
+  -----
+B [0;34mB[0m|[0;37m [0m|[0;37m [0m
+  -----
+A [0;30m [0m|[0;37m [0m|[0;37m [0m
+  1 2 3
+Player A, please choose your move: C2
+Player A chose C2
+C [0;31mA[0m|[0;31mA[0m|[0;37m [0m
+  -----
+B [0;34mB[0m|[0;37m [0m|[0;37m [0m
+  -----
+A [0;30m [0m|[0;37m [0m|[0;37m [0m
+  1 2 3
+Player B, please choose your move: C3
+Player B chose C3
+C [0;31mA[0m|[0;31mA[0m|[0;34mB[0m
+  -----
+B [0;34mB[0m|[0;37m [0m|[0;37m [0m
+  -----
+A [0;30m [0m|[0;37m [0m|[0;37m [0m
+  1 2 3
+Player A, please choose your move: A1
+Player A chose A1
+C [0;31mA[0m|[0;31mA[0m|[0;34mB[0m
+  -----
+B [0;34mB[0m|[0;37m [0m|[0;37m [0m
+  -----
+A [0;31mA[0m|[0;37m [0m|[0;37m [0m
+  1 2 3
+Player B, please choose your move: B3 2
+Player B chose B2
+C [0;31mA[0m|[0;31mA[0m|[0;34mB[0m
+  -----
+B [0;34mB[0m|[0;34mB[0m|[0;37m [0m
+  -----
+A [0;31mA[0m|[0;37m [0m|[0;37m [0m
+  1 2 3
+Player A, please choose your move: B3
+Player A chose B3
+C [0;31mA[0m|[0;31mA[0m|[0;34mB[0m
+  -----
+B [0;34mB[0m|[0;34mB[0m|[0;31mA[0m
+  -----
+A [0;31mA[0m|[0;37m [0m|[0;37m [0m
+  1 2 3
+Player B, please choose your move: A2
+Player B chose A2
+C [0;31mA[0m|[0;31mA[0m|[0;34mB[0m
+  -----
+B [0;34mB[0m|[0;34mB[0m|[0;31mA[0m
+  -----
+A [0;31mA[0m|[0;34mB[0m|[0;37m [0m
+  1 2 3
+Player A, please choose your move: B A3
+Player A chose A3
+C [0;31mA[0m|[0;31mA[0m|[0;34mB[0m
+  -----
+B [0;34mB[0m|[0;34mB[0m|[0;31mA[0m
+  -----
+A [0;31mA[0m|[0;34mB[0m|[0;31mA[0m
+  1 2 3
+Tie!
+Welcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: 4
+Goodbye]0;lilyaj@zuma:~/hw1[lilyaj@zuma ~/hw1]$ exit
+exit
+
+Script done on Mon 18 Jan 2021 08:01:00 PM PST
